@@ -25,6 +25,9 @@
         <cve>CVE-2021-29425</cve>
         <cve>CVE-2021-28164</cve>
         <cve>CVE-2021-34429</cve>
+
+        <!-- Log4j new vulnerability. No fix available yet. -->
+        <cve>CVE-2022-33915</cve>
     </suppress>
 
 </suppressions>
