@@ -22,5 +22,5 @@
         <notes><![CDATA[file name: snakeyaml-1.32.jar - https://bitbucket.org/snakeyaml/snakeyaml/issues/551/snakeyaml-cves]]></notes>
         <packageUrl regex="true">^pkg:maven/org\.yaml/snakeyaml@.*$</packageUrl>
         <cve>CVE-2022-38752</cve>
-    </suppress> -->
+    </suppress>
 </suppressions>
