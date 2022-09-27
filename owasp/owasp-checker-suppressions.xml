@@ -19,11 +19,6 @@
 
 <suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
     <suppress>
-        <notes><![CDATA[Ignored since we are not vulnerable]]></notes>
-        <packageUrl regex="true">^pkg:maven/org\.springframework/spring.*$</packageUrl>
-        <cve>CVE-2016-1000027</cve>
-    </suppress>
-    <suppress>
         <notes><![CDATA[file name: snakeyaml-1.32.jar - https://bitbucket.org/snakeyaml/snakeyaml/issues/551/snakeyaml-cves]]></notes>
         <packageUrl regex="true">^pkg:maven/org\.yaml/snakeyaml@.*$</packageUrl>
         <cve>CVE-2022-38752</cve>
