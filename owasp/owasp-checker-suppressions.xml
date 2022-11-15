@@ -24,4 +24,9 @@
         <vulnerabilityName>CVE-2022-41854</vulnerabilityName>
         <vulnerabilityName>CVE-2022-38752</vulnerabilityName>
     </suppress>
+    <suppress>
+        <notes><![CDATA[file name: kernel-7.2.4.jar - https://security.snyk.io/package/maven/com.itextpdf:kernel]]></notes>
+        <packageUrl regex="true">^pkg:maven/com\.itextpdf/kernel@.*$</packageUrl>
+        <vulnerabilityName>CVE-2022-24198</vulnerabilityName>
+    </suppress>
 </suppressions>
