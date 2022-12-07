@@ -30,4 +30,8 @@
         <packageUrl regex="true">^pkg:maven/com\.itextpdf/kernel@.*$</packageUrl>
         <vulnerabilityName>CVE-2022-24198</vulnerabilityName>
     </suppress>
+    <suppress>
+        <notes><![CDATA[file name: Commons jars - https://security.snyk.io/vuln/SNYK-JAVA-COMMONSNET-3153503]]></notes>
+        <vulnerabilityName>CVE-2021-37533</vulnerabilityName>
+    </suppress>
 </suppressions>
