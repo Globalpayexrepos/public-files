@@ -19,19 +19,17 @@
 
 <suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
     <suppress>
-        <notes><![CDATA[file name: snakeyaml-1.33.jar - https://bitbucket.org/snakeyaml/snakeyaml/issues/551/snakeyaml-cves]]></notes>
+        <notes><![CDATA[file name: snakeyaml-1.33.jar - https://bitbucket.org/snakeyaml/snakeyaml/issues/551/snakeyaml-cves, https://github.com/jeremylong/DependencyCheck/issues/5233]]></notes>
         <packageUrl regex="true">^pkg:maven/org\.yaml/snakeyaml@.*$</packageUrl>
         <vulnerabilityName>CVE-2022-41854</vulnerabilityName>
         <vulnerabilityName>CVE-2022-38752</vulnerabilityName>
         <vulnerabilityName>CVE-2022-1471</vulnerabilityName>
+        <vulnerabilityName>CVE-2022-3064</vulnerabilityName>
+        <vulnerabilityName>CVE-2021-4235</vulnerabilityName>
     </suppress>
     <suppress>
         <notes><![CDATA[file name: kernel-7.2.4.jar - https://security.snyk.io/package/maven/com.itextpdf:kernel]]></notes>
         <packageUrl regex="true">^pkg:maven/com\.itextpdf/kernel@.*$</packageUrl>
         <vulnerabilityName>CVE-2022-24198</vulnerabilityName>
-    </suppress>
-    <suppress>
-        <notes><![CDATA[file name: Commons jars - https://security.snyk.io/vuln/SNYK-JAVA-COMMONSNET-3153503]]></notes>
-        <vulnerabilityName>CVE-2021-37533</vulnerabilityName>
     </suppress>
 </suppressions>
